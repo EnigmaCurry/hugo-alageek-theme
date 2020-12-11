@@ -1,5 +1,5 @@
 {{ if .Site.Params.matrix_room }}
-<a href="https://matrix.to/#/{{ .Site.Params.matrix_room }}"
+<a href="https://matrix.to/#/{{ .Site.Params.matrix_room | safeURL }}"
    target="_blank"
    class="mx-1 ml-md-2 mr-md-0 icon"
    aria-label="Matrix">
